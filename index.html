@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seatwork 2</title>
+
+  <link rel="stylesheet" href="https://pyscript.net/releases/2025.3.1/core.css" />
+  <script type="module" src="https://pyscript.net/releases/2025.3.1/core.js"></script>
+
+  <style>
+
+   body{
+    
+  background-color: rgb(148, 112, 183);
+
+}
+  .div1{
+    
+      justify-content: center;
+      background-color: rgb(172, 147, 197);
+      margin-top: 50px;
+      height: 170px;
+}
+
+  
+  .container{
+
+      justify-content: center;
+      background-color: rgb(172, 147, 197);
+      margin-top: 50px;
+      height: 170px;
+}
+  </style>
+</head>
+<body>
+
+<div id="div1" class="div1"></div>
+
+<div class="container">
+  <input type="text" id="num1" placeholder="First Number: ">
+  <br>
+  <input type="text" id="num2" placeholder="Second Number: ">
+  <br>
+
+  <button type="submit" py_click="add" >Add</button>
+  <br>
+  <div id="adding"></div>
+
+  <div id="subtraction"></div>
+  <div id="multiplication"></div>
+  <div id="division"></div>
+</div>
+
+
+<script type="py" src="main.py"></script>
+</body>
+</html>
