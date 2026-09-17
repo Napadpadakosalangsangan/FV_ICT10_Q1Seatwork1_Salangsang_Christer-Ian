@@ -30,9 +30,11 @@ display(f"My name is {name}. I am currently {age} years old, with a height of {h
 
 def add(e):
 
-  num1 = float(document.getElementById("input1").value)
-  num2 = float(document.getElementById("input2").value)
+  num1 = float(document.getElementById("num1"))
+  num2 = float(document.getElementById("num2"))
 
   document.GetElementById("adding").innerTEXT = num1 + num2
+
+  
 
 
