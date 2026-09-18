@@ -24,15 +24,18 @@ fruits = set([" Apples", " Oranges", " Watermelons"])
 # Tuple
 day_ranks = (" Friday", " Saturday", " Sunday", " Thursday", " Tuesday", " Wednesday", " Monday")
 
+# F-string (with .join type-casting)
 display(f"My name is {name}. I am currently {age} years old, with a height of {he1ght}cm. In the future, I would like to visit the following countries: {",".join(countries_to_visit)}. You think I'm a new student? {student_type}! My favorite color is {favorites['color']}. My preferred car brand is {favorites['Car_brand']}. My shoe size is {favorites['shoe_size']}. And my bestfriend is {favorites['Best_friend']}. My favorite fruits are {",".join(fruits)}. Based on my personal experiences, I would rank the days in the week from best to boring in this order: {",".join(day_ranks)}.", target="div1")
 
 
 
 def add(e):
 
+# Getting the values
   num1 = float(document.getElementById("num1").value)
   num2 = float(document.getElementById("num2").value)
 
+# Calculating
   display(num1 + num2, target = "adding")
 
 def subtract(e):
